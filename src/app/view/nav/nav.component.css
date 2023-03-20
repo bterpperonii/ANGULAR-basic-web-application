@@ -1,0 +1,24 @@
+
+nav a{
+    text-decoration: none;
+    color: white;
+    background-color:#29854f;;
+    padding: 0.5rem;
+    border-radius: 10%;
+  }
+  
+nav a:hover{
+      background-color: white;
+      color: #29854f;;
+      box-shadow: 0 0 0 2px white, 0 0 0 3px var(--green);
+  }
+
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    margin:1rem;
+    align-items: center;
+    height: 10vh;
+    background-color:#29854f;;
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #29854f;;
+}
