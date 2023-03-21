@@ -5,6 +5,9 @@ nav a{
     background-color:#29854f;;
     padding: 0.5rem;
     border-radius: 10%;
+    border-left:2px solid white;
+    border-right: 2px solid white;
+    margin-left: 0.7rem;
   }
   
 nav a:hover{

@@ -6,15 +6,21 @@ import {HttpClientModule} from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './view/nav/nav.component';
-import { StructuresComponent } from './view/structures/structures.component';
+import { StructuresComponent } from './view/rule-management/structures/structures.component';
 import { LayoutComponent } from './view/layout/layout.component';
+import { HomeComponent } from './view/home/home.component';
+import { ReleasesComponent } from './view/rule-management/releases/releases.component';
+import { TitleComponent } from './view/simple-components/title/title.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     StructuresComponent,
-    LayoutComponent
+    LayoutComponent,
+    HomeComponent,
+    ReleasesComponent,
+    TitleComponent,
   ],
   imports: [
     BrowserModule,
