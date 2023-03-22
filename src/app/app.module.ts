@@ -11,6 +11,7 @@ import { LayoutComponent } from './view/layout/layout.component';
 import { HomeComponent } from './view/home/home.component';
 import { ReleasesComponent } from './view/rule-management/releases/releases.component';
 import { TitleComponent } from './view/simple-components/title/title.component';
+import { StructureComponent } from './view/rule-management/structure/structure.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { TitleComponent } from './view/simple-components/title/title.component';
     HomeComponent,
     ReleasesComponent,
     TitleComponent,
+    StructureComponent,
   ],
   imports: [
     BrowserModule,

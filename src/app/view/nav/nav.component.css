@@ -1,27 +1,29 @@
-
-nav a{
+nav a {
     text-decoration: none;
     color: white;
-    background-color:#29854f;;
+    background-color: #29854f;
+    ;
     padding: 0.5rem;
     border-radius: 10%;
-    border-left:2px solid white;
+    border-left: 2px solid white;
     border-right: 2px solid white;
     margin-left: 0.7rem;
-  }
-  
-nav a:hover{
-      background-color: white;
-      color: #29854f;;
-      box-shadow: 0 0 0 2px white, 0 0 0 3px var(--green);
-  }
+}
 
-.nav{
+nav a:hover {
+    background-color: white;
+    color: #29854f;
+    box-shadow: 0 0 0 2px white, 0 0 0 3px var(--green);
+}
+
+.nav {
     display: flex;
     justify-content: flex-start;
-    margin:1rem;
+    margin: 1rem;
     align-items: center;
     height: 10vh;
-    background-color:#29854f;;
-    box-shadow: 0 0 0 2px white, 0 0 0 3px #29854f;;
+    background-color: #29854f;
+    ;
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #29854f;
+    ;
 }

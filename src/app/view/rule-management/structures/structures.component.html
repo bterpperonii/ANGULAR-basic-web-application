@@ -1,4 +1,10 @@
 <app-nav></app-nav>
 <app-layout></app-layout>
 
-<h2>Structures</h2>
+<div class="div-select">
+    <label for="select-structures">Structure's List : </label>
+    <select id="select-structures" [(ngModel)]="selectedOption">
+    <option *ngFor="let structure of structures" [value]="structure.structureId">{{structure.structureId}}</option>
+    </select>
+</div>
+<button type="button" class="btn" routerLink="/structure/{{selectedOption}}">Display Structure</button>

@@ -8,7 +8,7 @@ import { Structure } from 'src/app/interface';
   styleUrls: ['./structures.component.css']
 })
 export class StructuresComponent implements OnInit{
-
+  selectedOption: string = '';
   structures: Structure[] = [];
   constructor(private structureService: StructureService) { }
 
@@ -22,4 +22,4 @@ export class StructuresComponent implements OnInit{
     })
   }
 }
-  
+
