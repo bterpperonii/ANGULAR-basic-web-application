@@ -17,9 +17,9 @@ export class StructuresComponent implements OnInit{
   }
 
   getStructures(): void {
-    this.structureService.getStructures().subscribe((structures) => {
-      this.structures = structures;
-    })
+    this.structureService.getStructures().subscribe(structures => 
+      this.structures = structures
+    )
   }
 }
 

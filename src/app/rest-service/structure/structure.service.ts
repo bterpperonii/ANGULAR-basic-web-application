@@ -8,11 +8,14 @@ import { Observable } from 'rxjs';
 })
 export class StructureService {
 
-  private uri = 'http://localhost:8080/';
+  private uri = 'http://localhost:8080';
   constructor(private http: HttpClient) {  }
 
   public getStructures(): Observable<Structure[]> {
     return this.http.get<Structure[]>(`${this.uri}/getStructures`);
   }
 
+  public getStructureById(structureId: number): Observable<Structure> {
+    return this.http.get<Structure>(`${this.uri}/getStructure/${structureId}`);
+  }
 }

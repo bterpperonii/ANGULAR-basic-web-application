@@ -1,0 +1,65 @@
+
+/************************************ TABLE ******************************************/
+.div-table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin: 0 auto;
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+.table thead{
+    background-color: #12582f;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.table tbody{
+    text-align: center;
+    background-color: #e4f0f5;
+}
+
+td,
+th {
+    border: 1px solid rgb(3, 3, 3, 0.2);
+    padding: 0.75rem 2rem;
+}
+
+td {
+    text-align: center;
+    background-color: #78d69f;
+}
+
+tr{
+    background-color: #27AE60;
+}
+
+/************************************ BUTTONS ******************************************/
+
+.btn-read{
+  font-size: 1.5vw;
+  background: #29854f;
+  color: white;
+  border: 0 none;
+  cursor: pointer;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 1vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.btn-read:hover{
+  font-size: 1.51vw;
+  box-shadow: 0 0 0 2px white, 0 0 0 3px #29854f;
+}
